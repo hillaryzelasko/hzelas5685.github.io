@@ -19,7 +19,7 @@ body{
     font-size: 20px;
   }
 
-.nav-box {
+li .nav-box {
   display: inline-block;
   height: 20px;
   width: auto;
@@ -30,19 +30,19 @@ body{
 }
 
 
-.nav-box a {
+li .nav-box a {
     color: #454545;
     text-decoration: none;
 
 }
 
-.nav-box a:hover {
+li .nav-box a:hover {
     letter-spacing: 3px;
     color: #454545;
     content: "+";
 }
 
-.nav-box a:hover::before {
+li .nav-box a:hover::before {
     content: "+";
 }
 
@@ -51,7 +51,9 @@ body{
   }
 
 
-
+nav ul li {
+    padding: 0px 20px;
+}
 
 
 
