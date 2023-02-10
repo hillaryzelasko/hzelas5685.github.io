@@ -9,19 +9,22 @@ body{
 
 /* NAVIGATION BAR */
 
-  #nav-bar {
+
+.nav-bar {
     display: flex;
     justify-content: flex-end;
-    list-style: none;
+    width: 100%;
     color: #454545;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
   }
 
-.nav-box {
+li .nav-box {
   display: inline-block;
   height: 20px;
   width: auto;
+  text-decoration: none;
+  list-style: none;
 
 }
 
