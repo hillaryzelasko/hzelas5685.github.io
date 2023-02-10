@@ -48,6 +48,23 @@ body {
 
 
   /* CENTERING FLEXBOX IN THE MIDDLE 
+
+align-items property is used to align items on the cross axis within a single row.
+align-content property is used to align items within multiple rows
+
+  
+justify-content: to position on the main axis
+
+
+flex: GROW# SHRINK# FLEXBASIS;
+  example: flex: 1 2 120px;
+
+flex-flow: ROW/COLUMN WRAP/NOWRAP
+  example: flex-flow: column wrap; 
+  
+
+
+
   .child {
   height: 75px;
   width: 75px;
