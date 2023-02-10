@@ -29,19 +29,19 @@ li .nav-box {
 }
 
 
-.box a {
+.nav-box a {
     color: #454545;
     text-decoration: none;
 
 }
 
-.box a:hover {
+.nav-box a:hover {
     letter-spacing: 3px;
     color: #454545;
     content: "+";
 }
 
-.box a:hover::before {
+.nav-box a:hover::before {
     content: "+";
 }
 
@@ -57,7 +57,41 @@ nav ul li {
 
 
 
+/* BODY OF OTHER PAGES  ---- USE FLEX-GROW and FLEX-SHRINK!!! */ 
 
+.top,
+.middle,
+.bottom {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
+  margin: 10px 30px;
+}
+
+.top.side {
+flex-shrink: 2;
+}
+
+.top.center {
+flex-grow: 1;
+}
+
+.middle.side {
+  flex-grow: 1;
+}
+
+.middle.center {
+  flex-grow: 1;
+}
+
+.bottom.side {
+  flex-grow: 1;
+}
+
+.bottom.center {
+	flex-grow: 1;
+}
 
 
 /* FOOTER CODE */

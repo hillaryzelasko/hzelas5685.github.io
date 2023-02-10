@@ -46,6 +46,21 @@ body {
   }
   
 
+
+  /* CENTERING FLEXBOX IN THE MIDDLE 
+  .child {
+  height: 75px;
+  width: 75px;
+  background-color: whitesmoke;
+  border: 1px solid snow;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+
   /*   BASIC HTML LAYOUT FOR FLEXBOX CSS ABOV
   
   <h1>Flex Start</h1>
@@ -54,5 +69,60 @@ body {
     <div class='box'></div>
     <div class='box'></div>
   </div>
+
+
+
+  THIS IS THE HORIZONTAL CODE 
+  body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container {
+  height: 150px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.left,
+.center,
+.right {
+  min-height: 75px;
+  width: 125px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
+  
+}
+
+#baseline .center {
+  height: 100px;
+  width: 100px;
+  border: 5px solid turquoise;
+}
+
+#flexstart {
+align-items: flex-start;
+}
+
+#flexend {
+align-items: flex-end;
+}
+
+#center {
+align-items: center;
+}
+
+#baseline {
+align-items: baseline;
+}
+
+
+
 
   */
