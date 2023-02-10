@@ -6,15 +6,25 @@ body{
 
 
 
+
 /* NAVIGATION BAR */
-.box {
+
+  #nav-bar {
     display: flex;
-    align-content: flex-end;
+    justify-content: flex-end;
     list-style: none;
     color: #454545;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-  } 
+  }
+
+.nav-box {
+  display: inline-block;
+  height: 20px;
+  width: auto;
+
+}
+
 
 .box a {
     color: #454545;
@@ -39,8 +49,13 @@ body{
 
 nav ul li {
     padding: 0px 20px;
-
 }
+
+
+
+
+
+
 
 /* FOOTER CODE */
 .footer {
