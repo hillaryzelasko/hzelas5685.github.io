@@ -214,32 +214,31 @@ button {
     height: 80%;
     position: relative;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     margin: 10px;
     justify-items: center;
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    grid-template-areas: "title title title"
-                         "package_1" "package 2" "package 3"
+
                          
   }
 
   .package_i {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-    grid-area: "package_1";
+    grid-area: 2 / 1 / 3 / 2;
 
   }
 
   .package_ii {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-    grid-area: "package_2";
+    grid-area: 2 / 2 / 3 / 3;
   }
 
   .package_iii {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-    grid-area: "package_3";
+    grid-area: 2 / 3 / 3 / 4;
   }
 
 .title {
@@ -248,7 +247,7 @@ button {
   text-decoration: #454545 underline overline;
   letter-spacing: 0.5;
   font-family: 'Sofia Sans', Times;
-  grid-area: "title"
+  grid-area: 1 / 1 / 2 / 4;
 }
   
 .pricepic {
