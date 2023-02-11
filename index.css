@@ -211,6 +211,7 @@ button {
   .packages {
     display: grid;
     width: 80%;
+    height: 80%;
     position: relative;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -218,7 +219,7 @@ button {
     margin: 10px;
     justify-items: center;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     align-content: center;
   }
 
