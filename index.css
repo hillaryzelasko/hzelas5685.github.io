@@ -232,6 +232,7 @@ button {
     letter-spacing: 0.5;
     font-family: 'Sofia Sans', Times;
     grid-area: 1 / 1 / 2 / 4;
+    justify-content: stretch;
     text-align: center;
     align-self: stretch;
 
