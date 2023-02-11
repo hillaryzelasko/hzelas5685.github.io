@@ -241,7 +241,8 @@ button {
 
 .cost {
   display: inline-block;
-  font-family: "Sofia Sans Regular";
+  font-family: 'Sofia Sans', 'Times New Roman', Times, serif;
+  text-transform: none;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
