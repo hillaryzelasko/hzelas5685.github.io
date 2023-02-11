@@ -238,7 +238,7 @@ button {
   text-decoration: #454545 underline overline;
   letter-spacing: 0.5;
   font-family: 'Sofia Sans', Times;
-
+  grid-column: 1 / 4;
 }
   
 .pricepic {
