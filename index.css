@@ -210,8 +210,9 @@ button {
 
   .packages {
     display: grid;
-    grid-template-columns: repeat(3, 25%);
-    grid-template-rows: 40px 400px;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     margin-top: 10px;
     justify-items: center;
