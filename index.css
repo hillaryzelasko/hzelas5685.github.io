@@ -224,17 +224,18 @@ button {
 
   .package_i {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    grid-area: 2 / 1 / 2 / 2;
 
   }
 
   .package_ii {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-
+    grid-area: 2 / 2 / 2 / 3;
   }
 
   .package_iii {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-
+    grid-area: 2 / 3 / 2 / 4;
   }
 
 .title {
