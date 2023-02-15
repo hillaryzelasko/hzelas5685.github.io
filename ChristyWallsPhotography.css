@@ -3,7 +3,7 @@
 /* UNIVERSAL CODE */
 
 body{
-    background-color: rgb(124, 174, 126);
+    background-color: #5F8575;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
@@ -157,9 +157,10 @@ footer ul li {
   
   header {
     align-content: center;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     justify-items: center;
+    margin: auto;
     grid-area: 1 / 1 / 3 / 7;
   }
   
