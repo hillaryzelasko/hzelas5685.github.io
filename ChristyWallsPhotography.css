@@ -157,6 +157,9 @@ footer ul li {
   
   header {
     align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     grid-area: 1 / 1 / 3 / 7;
   }
   
