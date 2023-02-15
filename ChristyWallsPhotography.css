@@ -143,7 +143,7 @@ footer ul li {
 
 .container {
     display: grid;
-    max-width: 900px;
+    max-width: 1080px;
     position: relative;
     margin: auto;
     gap: 10px;
