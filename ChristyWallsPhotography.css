@@ -3,7 +3,7 @@
 /* UNIVERSAL CODE */
 
 body{
-    background-color: #5F8575;
+    background-color: #718879;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
@@ -165,29 +165,30 @@ footer ul li {
   }
   
   nav {
-    background-color: beige;
+    background-color:rgba(50, 32, 7, 10%);
     grid-area: 3 / 1 / 4 / 7;
   }
   
   .left {
-    background-color: dodgerblue;
+    background-color:rgba(50, 32, 7, 10%);
+    color: #ddd6d3;
     grid-area: 4 / 1 / 9 / 5;
     /* ROW START / COLUMN START / ROW STOP / COLUMN STOP */
   }
   
   .right {
-    background-color: beige;
+    background-color:rgba(50, 32, 7, 10%);
     grid-area: 4 / 5 / 9 / 7;
   }
   
   .overlap {
-    background-color: lightcoral;
+    background-color:rgba(50, 32, 7, 10%);
     grid-area: 6 / 4 / 8 / 6;
     z-index: 5;
   }
   
   footer {
-    background-color: dodgerblue;
+    background-color:rgba(50, 32, 7, 10%);
     grid-area: 9 / 1 / 13 / 7;
   }
 }
