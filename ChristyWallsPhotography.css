@@ -171,20 +171,28 @@ footer ul li {
     grid-area: 3 / 1 / 4 / 7;
   }
   
-  .left {
+  .family {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
-    grid-area: 4 / 1 / 9 / 5;
+    grid-area: 3 / 1 / 4 / 7;
+  }
+
+  .seniors {
+    background-color:rgba(50, 32, 7, 10%);
+    color: #ddd6d3;
+    grid-area: 4 / 1 / 5 / 7;
     /* ROW START / COLUMN START / ROW STOP / COLUMN STOP */
   }
   
-  .right {
+  .weddings {
     background-color:rgba(50, 32, 7, 10%);
-    grid-area: 4 / 5 / 9 / 7;
+    color: #ddd6d3;
+    grid-area: 5 / 1 / 6 / 7;
   }
   
-  .overlap {
+  .branding {
     background-color:rgba(50, 32, 7, 10%);
+    color: #ddd6d3;
     grid-area: 6 / 4 / 8 / 6;
     z-index: 5;
   }
