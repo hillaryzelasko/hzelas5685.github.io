@@ -3,7 +3,7 @@
 /* UNIVERSAL CODE */
 
 body{
-    background-color: hsl(141, 9%, 60%);
+    background-color: hsl(141, 9%,75%);
     width: 80%;
     margin: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -149,7 +149,7 @@ footer ul li {
     position: relative;
     margin: auto;
     gap: 10px;
-    grid-template: repeat(12, 1fr) / repeat(6, 1fr);
+    grid-template: repeat(16, 1fr) / repeat(6, 1fr);
   }
   
   h1, h2, h3 {
@@ -168,37 +168,37 @@ footer ul li {
   
   nav {
     background-color:rgba(50, 32, 7, 10%);
-    grid-area: 3 / 1 / 4 / 7;
+    grid-area: 3 / 1 / 5 / 7;
   }
   
   .family {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
-    grid-area: 3 / 1 / 4 / 7;
+    grid-area: 5 / 1 / 7 / 7;
   }
 
   .seniors {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
-    grid-area: 4 / 1 / 5 / 7;
+    grid-area: 7 / 1 / 9 / 7;
     /* ROW START / COLUMN START / ROW STOP / COLUMN STOP */
   }
   
   .weddings {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
-    grid-area: 5 / 1 / 6 / 7;
+    grid-area: 9 / 1 / 11 / 7;
   }
   
   .branding {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
-    grid-area: 6 / 4 / 8 / 6;
+    grid-area: 11 / 4 / 13 / 6;
     z-index: 5;
   }
   
   footer {
     background-color:rgba(50, 32, 7, 10%);
-    grid-area: 9 / 1 / 13 / 7;
+    grid-area: 13 / 1 / 15 / 7;
   }
 }
