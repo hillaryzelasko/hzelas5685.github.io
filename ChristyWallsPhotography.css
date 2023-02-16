@@ -197,13 +197,13 @@ footer ul li {
 
   .weddings .image {
     grid-area: 1 / 1 / 5 / 2;
-    background-color:hsl(141, 9%,75%)
+    background-color:hsl(273, 60%, 29%)
   }
 
   .weddings .info {
     grid-area: 1 / 2 / 5 / 3;
     text-align: center;
-    background-color:hsl(141, 9%,75%)
+    background-color:hsl(273, 60%, 29%)
   }
   
   .branding {
