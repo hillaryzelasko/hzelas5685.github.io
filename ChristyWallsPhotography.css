@@ -1,9 +1,9 @@
-@media only screen and (min-width: 400px) 
+/* @media only screen and (min-width: 400px) */
 {
 /* UNIVERSAL CODE */
 
 body{
-    background-color: rgba(112, 135, 120, 50%);
+    background-color: hsl(141, 9%, 60%);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
