@@ -1,9 +1,11 @@
-/* @media only screen and (min-width: 400px) */
-
+@media only screen and (min-width: 400px)
+{
 /* UNIVERSAL CODE */
 
 body{
     background-color: hsl(141, 9%, 60%);
+    width: 80%;
+    margin: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
@@ -191,3 +193,4 @@ footer ul li {
     background-color:rgba(50, 32, 7, 10%);
     grid-area: 9 / 1 / 13 / 7;
   }
+}
