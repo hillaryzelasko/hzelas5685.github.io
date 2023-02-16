@@ -193,7 +193,7 @@ footer ul li {
   .branding {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
-    grid-area: 9 / 4 / 11 / 6;
+    grid-area: 9 / 1 / 11 / 7;
     z-index: 5;
   }
   
