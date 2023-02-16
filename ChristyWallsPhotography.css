@@ -194,11 +194,11 @@ footer ul li {
     grid-template: repeat(4, 1fr) / repeat(2, 1fr) ;
   }
 
-  .weddings-image {
+  .weddings .image {
     grid-area: 1 / 1 / 5 / 2;
   }
 
-  .wedding-info {
+  .weddings .info {
     grid-area: 1 / 2 / 5 / 3;
   }
   
