@@ -1,5 +1,5 @@
 /* @media only screen and (min-width: 400px) */
-{
+
 /* UNIVERSAL CODE */
 
 body{
@@ -191,4 +191,3 @@ footer ul li {
     background-color:rgba(50, 32, 7, 10%);
     grid-area: 9 / 1 / 13 / 7;
   }
-}
