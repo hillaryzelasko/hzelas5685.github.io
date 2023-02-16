@@ -192,6 +192,7 @@ footer ul li {
     align-content: center;
     align-items: center;
   }
+
   
   .seniors {
     background-color:rgba(50, 32, 7, 5%);
@@ -229,12 +230,23 @@ footer ul li {
     /* COLUMN / ROW */
   }
 
-.image {
+.leftimage {
     grid-area: 1 / 1 / 5 / 2;
   }
 
-.info {
+.leftinfo {
     grid-area: 1 / 2 / 5 / 4;
+    text-align: center;
+
+    font-size: 60px;
+  }
+
+  .rightimage {
+    grid-area: 1 / 2 / 5 / 4;
+  }
+
+.rightinfo {
+    grid-area: 1 / 1 / 5 / 2;
     text-align: center;
 
     font-size: 60px;
