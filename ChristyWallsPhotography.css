@@ -196,7 +196,7 @@ footer ul li {
   }
 
   .weddings .image {
-    grid-area: 1 / 1 / 5 / 2;
+    grid-area: 1 / 1 / 5 / 1;
     background-color:hsl(34, 59%, 29%);
   }
 
