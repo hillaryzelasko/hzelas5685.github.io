@@ -192,12 +192,17 @@ footer ul li {
   .weddings {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
+    justify-content:space-between;
     grid-area: 8 / 1 / 10 / 7;
   }
 
-  .left-image {
+  .wedding-image {
     align-content: flex-start;
     grid-area: 8 / 1 / 10 / 3;
+  }
+
+  .wedding-header {
+    grid-area: 8 / 4 / 10 / 7;
   }
   
   .branding {
