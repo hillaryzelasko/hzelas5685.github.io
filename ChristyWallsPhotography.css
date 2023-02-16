@@ -198,7 +198,10 @@ footer ul li {
   }
 
   .weddings .image {
-    grid-area: 1 / 1 / 5 / 1;
+    grid-column-start: 1 ;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 4;
     background-color:hsl(34, 59%, 29%);
   }
 
