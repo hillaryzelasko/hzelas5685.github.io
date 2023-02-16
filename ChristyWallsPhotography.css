@@ -145,12 +145,12 @@ footer ul li {
 
 .container {
     display: grid;
-    max-width: 1080px;
+    width: 1080px;
     position: relative;
     margin: auto;
     gap: 10px;
     grid-template: repeat(13, 1fr) / repeat(6, 1fr);
-    height: 1200px;
+    height: 2000px;
   }
   
   h1, h2, h3 {
@@ -193,6 +193,10 @@ footer ul li {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
     grid-area: 7 / 1 / 9 / 7;
+  }
+
+  .left-image {
+    align-content: flex-start;
   }
   
   .branding {
