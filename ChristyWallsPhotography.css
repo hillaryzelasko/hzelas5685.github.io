@@ -192,7 +192,8 @@ footer ul li {
     font-family: 'Great Vibes', cursive, times;
     justify-content:space-between;
     grid-area: 6 / 1 / 7 / 7;
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr) ;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr) ;
+    /* COLUMN / ROW */
   }
 
   .weddings .image {
