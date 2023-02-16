@@ -189,6 +189,7 @@ footer ul li {
   .weddings {
     background-color:rgba(50, 32, 7, 10%);
     color: #ddd6d3;
+    font-family: 'Great Vibes', cursive, times;
     justify-content:space-between;
     grid-area: 6 / 1 / 7 / 7;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr) ;
