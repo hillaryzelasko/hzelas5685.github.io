@@ -192,23 +192,27 @@ footer ul li {
     font-family: 'Great Vibes', cursive, times;
     justify-content:space-between;
     grid-area: 6 / 1 / 7 / 7;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr) ;
+    display: grid;
+    height: 400px;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
     /* COLUMN / ROW */
   }
 
   .weddings .image {
-    grid-column-start: 1 ;
-    grid-column-end: span 1;
-    grid-row-start: 1;
-    grid-row-end: span 4;
-    background-color:hsl(34, 59%, 29%);
+    grid-area: 1 / 1 / 5 / 2;
   }
 
   .weddings .info {
-    grid-area: 1 / 2 / 5 / 3;
+    grid-area: 1 / 2 / 5 / 4;
     text-align: center;
-    background-color:hsl(273, 60%, 29%);
+
+    font-size: 60px;
   }
   
   .branding {
