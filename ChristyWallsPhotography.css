@@ -149,7 +149,8 @@ footer ul li {
     position: relative;
     margin: auto;
     gap: 10px;
-    grid-template: repeat(16, 1fr) / repeat(6, 1fr);
+    grid-template: repeat(13, 1fr) / repeat(6, 1fr);
+    height: 1200px;
   }
   
   h1, h2, h3 {
@@ -169,6 +170,10 @@ footer ul li {
   nav {
     background-color:rgba(50, 32, 7, 10%);
     grid-area: 3 / 1 / 5 / 7;
+  }
+
+  .image {
+    width: 400px;
   }
   
   .family {
