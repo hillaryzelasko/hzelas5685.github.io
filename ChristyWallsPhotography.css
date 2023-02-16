@@ -149,7 +149,7 @@ footer ul li {
     position: relative;
     margin: auto;
     gap: 10px;
-    grid-template: repeat(13, 1fr) / repeat(6, 1fr);
+    grid-template: repeat(12, 1fr), 200px / repeat(6, 1fr);
     height: 2000px;
   }
   
@@ -197,6 +197,7 @@ footer ul li {
 
   .left-image {
     align-content: flex-start;
+    grid-area: 7 / 1 / 9 / 3;
   }
   
   .branding {
@@ -208,6 +209,6 @@ footer ul li {
   
   footer {
     background-color:rgba(50, 32, 7, 10%);
-    grid-area: 11 / 1 / 13 / 7;
+    grid-area: 13 / 1 / 14 / 7;
   }
 }
