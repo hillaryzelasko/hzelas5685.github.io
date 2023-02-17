@@ -47,7 +47,6 @@ h3 {
 
 a {
   cursor: pointer;
-  text-decoration: bold;
 }
 
 main {
@@ -154,6 +153,10 @@ footer ul li {
     justify-content:space-evenly;
     justify-items:center;
     overflow: hidden;
+  }
+
+  .container button {
+    background-color: rgba(0, 0, 0, 0%)
   }
 
 
