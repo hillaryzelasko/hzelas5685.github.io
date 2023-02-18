@@ -389,3 +389,178 @@ const smallestPowerOfTwo = arr => {
 
 console.log(smallestPowerOfTwo(numbers)) 
 // Should print the returned array [ 8, 4, 16, 32 ] instead prints the returned array [8]
+
+
+
+
+
+
+
+//FUNCTION TO UPPERCASE ALL THE THIGNS IN AN ARRAY
+
+const shoutGreetings = arr => arr.map(word => word.toUpperCase() + '!');
+
+/*
+// As a function declaration AND using a loop:
+function shoutGreetings(arr) {
+    let shoutArray = []
+    for(let i = 0; i<arr.length; i++){
+        shoutArray.push(arr[i].toUpperCase() + '!')
+    }
+    return shoutArray
+}
+*/
+const greetings = ['hello', 'hi', 'heya', 'oi', 'hey', 'yo']
+
+console.log(shoutGreetings(greetings))
+
+
+
+
+
+
+//SOME WITCHCRAFT SORTING SHIT. 
+
+const sortYears = arr => arr.sort((x, y) => y - x);
+
+/*
+// As a function declaration AND using a named function:
+
+function sortYears(arr) {
+      const checkYears = (year1, year2) => year2 - year1
+      return arr.sort(checkYears)
+}
+*/
+
+const years = [1970, 1999, 1951, 1982, 1963, 2011, 2018, 1922]
+
+console.log(sortYears(years))
+
+
+// SORTING BY 2 PARAMETERS TO MAKE SURE ONE IS GREATER THAN THE OTHER
+
+const speciesArray = [ {speciesName:'shark', numTeeth:50}, {speciesName:'dog', numTeeth:42}, {speciesName:'alligator', numTeeth:80}, {speciesName:'human', numTeeth:32}];
+
+// Write your code here:
+const sortSpeciesByTeeth = arr => arr.sort((shark,shark2) => shark.numTeeth > shark2.numTeeth)
+
+
+console.log(sortSpeciesByTeeth(speciesArray))
+
+// Should print:
+// [ { speciesName: 'human', numTeeth: 32 },
+//   { speciesName: 'dog', numTeeth: 42 },
+//   { speciesName: 'shark', numTeeth: 50 },
+//   { speciesName: 'alligator', numTeeth: 80 } ]
+
+
+
+
+
+// THIS MAKES SENSE ... THE ARRAY HAS TWO PARAMETERS, NAME AND SOURCE.  TO CALL UPON THE SOURCE
+// TO CHECK INPUT, MUST CALL THE ARRAY, AND THEN THE PARAMETER OF ARRAY.  
+// ARRAY = food (in this instance) AND .source IS THE PARAMETER
+
+const isTheDinnerVegan = arr => arr.every(food => food.source === 'plant');
+
+/*
+// Alternate solution:
+// Using a function declaration, loop, and helper function:
+function isTheDinnerVegan(arr) {
+      const isVegan = (food) => {
+            if (food.source === 'plant') {
+                  return true;
+            }
+            return false;
+      }
+      for(let i = 0; i<arr.length; i++){
+            if (!isVegan(arr[i])){
+                  return false 
+            }
+      }
+      return true
+}
+*/
+
+const dinner = [{name: 'hamburger', source: 'meat'}, {name: 'cheese', source: 'dairy'}, {name: 'ketchup', source:'plant'}, {name: 'bun', source: 'plant'}, {name: 'dessert twinkies', source:'unknown'}];
+
+console.log(isTheDinnerVegan(dinner))
+
+
+
+
+
+
+
+// FACTORY CREATION EXAMPLE // 
+
+const dogFactory = (name, breed, weight) => {
+    return {
+        _name: name,
+        _breed: breed,
+        _weight: weight,
+        get name() {
+            return this._name;
+        },
+        set name(newName) {
+            this._name = newName;
+        },
+        get breed() {
+            return this._breed;
+        },
+        set breed(newBreed) {
+            this._breed = newBreed;
+        },
+        get weight() {
+            return this._weight;
+        },
+        set weight(newWeight) {
+            this._weight = newWeight;
+        },
+        bark() {
+            return 'ruff! ruff!'
+        },
+        eatTooManyTreats() {
+            this._weight++
+        }
+    }
+}
+
+/*
+// Solution to checkpoint 1:
+const dogFactory = (name, breed, weight) => {
+      return {
+            name: name,
+            breed: breed,
+            weight: weight
+      }
+}
+
+// Solution to checkpoint 2:
+const dogFactory = (name, breed, weight) => {
+      return {
+            _name: name,
+            _breed: breed,
+            _weight: weight,
+            get name() {
+                  return this._name;
+            },
+            set name(newName) {
+                  this._name = newName;
+            },
+            get breed() {
+                  return this._breed;
+            },
+            set breed(newBreed) {
+                  this._breed = newBreed;
+            },
+            get weight() {
+                  return this._weight;
+            },
+            set weight(newWeight) {
+                  this._weight = newWeight;
+            }
+      }
+}
+
+*/
