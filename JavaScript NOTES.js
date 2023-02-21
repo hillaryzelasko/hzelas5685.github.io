@@ -563,4 +563,15 @@ const dogFactory = (name, breed, weight) => {
       }
 }
 
+
+
+
+
+// HOW TO REMOVE THINGS FROM ARRAYS
+ arr[i].join('') + ' Company: 
 */
+
+
+
+
+
