@@ -662,3 +662,226 @@ The .innerHTML and .style properties allow you to modify an element by changing 
 You can create, append, and remove elements by using the .createElement(),.appendChild() and .removeChild() methods respectively.
 The .onclick property can add interactivity to a DOM element based on a click event.
 The .children property returns a list of an element’s children and the .parentNode property returns the element’s closest connected node in the direction towards the root. */
+
+
+
+let eventTarget = document.getElementById('targetElement');
+ 
+eventTarget.addEventListener('click', function() {
+  // this block of code will run when click event happens on eventTarget element
+});
+
+
+// THIS CODE CHANGES THE CSS DISPLAY FROM HIDDEN TO BLOCK FORM. 
+let readMore = document.getElementById('read-more');
+let moreInfo = document.getElementById('more-info');
+
+// Write your code here:
+
+function showInfo() {
+  moreInfo.style.display = 'block';
+}
+
+  readMore.addEventListener('click', showInfo)
+
+
+//THIS JAVASCRIPT PAIRED WITH THE HTML AND CSS BELOW MAKE AN IMAGE APPEAR AND DISAPPEAR
+  let view = document.getElementById('view-button');
+  let close = document.getElementById('close-button');
+  let codey = document.getElementById('codey');
+  
+  let open = function() {
+    codey.style.display = 'block';
+    close.style.display = 'block';
+  };
+  
+  let hide = function() {
+    codey.style.display = 'none';
+    close.style.display = 'none';
+  };
+  
+  view.addEventListener('click', open);
+  close.addEventListener('click', hide);
+  
+  // Write your code here
+  
+  function textChange() {
+  view.innerHTML = 'Hello, World!'
+  }
+  
+  function textReturn() {
+  view.innerHTML = 'View'
+  }
+  
+  view.addEventListener('click', textChange)
+  close.addEventListener('click', textReturn)
+
+
+/*
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+  <section id='container'>
+  <button id='view-button'>View</button>
+  <img src="https://content.codecademy.com/courses/javascript-dom-events/Margot_medal.svg" id='codey'>
+  <button id='close-button'>Close</button>
+</section>
+  
+  <script  src="main.js"></script>
+
+</body>
+</html>
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito';
+}
+#container{
+  background: #141c3a;
+  margin: 0;
+  display: block;
+  float: left;
+  width: 100vw;
+  height: 100vh;
+}
+#view-button{
+  width: 380px;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  display: block;
+  background-color: #6df0c2;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: 'Nunito';
+}
+#codey{
+  display: none;
+  width: 200px;
+  margin: 0 auto;
+}
+#close-button{
+  width: 380px;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  display: none;
+  background-color: #fd4d3f;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Nunito';
+} 
+*/
+
+
+// IF INSERTED INSIDE THE FUNCTION THAT ALLOWS THE CLICK BUTTON, IT ONLY ALLOWS YOU TO CLICK THE BUTTON ONCE.
+button.removeEventListener('click', showFortune) 
+
+// THE FUNCTION THAT IT EVOKES IS 'EVENT' THE TARGET STYLE DISPLAY 
+let sharePhoto = function(event) {
+  
+  event.target.style.display = 'none';
+  text.innerHTML = 'You shared the puppy photo in ' 
++ event.timeStamp + ' ms.';
+
+}
+
+
+
+// ALLOWS THE BUTONS TO CHANGE COLORS... MYSTERY BUTTON HAS A DIFFERENT TYPE OF EVENT LISTENER.
+// This variable stores the "Pick a Color" button
+let button = document.getElementById('color-button');
+
+// This variable stores the "Mystery Color" button
+let mysteryButton = document.getElementById('next-button');
+
+// This random number function will create color codes for the randomColor variable
+function colorValue() {
+  return Math.floor(Math.random() * 256);
+}
+
+function colorChange(event){
+let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
+event.target.style.backgroundColor = randomColor;
+}
+
+button.addEventListener('click', colorChange)
+mysteryButton.addEventListener('wheel', colorChange)
+
+
+
+
+// HERE ARE A BUNCH OF EXAMPLES OF EVENT CHANGES...  6
+// These variables store the boxes on the side
+let itemOne = document.getElementById('list-item-one');
+let itemTwo = document.getElementById('list-item-two');
+let itemThree = document.getElementById('list-item-three');
+let itemFour = document.getElementById('list-item-four');
+let itemFive = document.getElementById('list-item-five');
+let resetButton = document.getElementById('reset-button');
+
+// This function programs the "Reset" button to return the boxes to their default styles
+let reset = function() {
+  itemOne.style.width = ''
+  itemTwo .style.backgroundColor = ''
+  itemThree.innerHTML = 'The mouse must leave the box to change the text'
+  itemFive.style.display = "none"
+};
+resetButton.onclick = reset;
+
+// Write your code here
+
+function increaseWidth() {
+itemOne.style.width = '500px';
+}
+
+itemOne.addEventListener('mouseover', increaseWidth)
+itemOne.addEventListener('mouseout', reset)
+
+function changeBackground() {
+  itemTwo.style.backgroundColor = 'red';
+}
+
+itemTwo.addEventListener('mouseup', changeBackground)
+
+function changeText() {
+  itemThree.innerHTML = 'The mouse has left the element'
+}
+
+itemThree.addEventListener('mouseout', changeText)
+
+function showItem() {
+  itemFive.style.display = 'block'
+}
+
+itemFour.addEventListener('mousedown', showItem)
+
+
+
+
+// EXAMPLE OF MOVING AN OBJECT BASED ON KEY DOWN / UP
+
+let ball = document.getElementById('float-circle');
+
+// Write your code below
+function up() {
+ball.style.bottom = '250px';
+}
+
+function down() {
+  ball.style.bottom = '50px';
+}
+
+document.addEventListener('keydown', up)
+document.addEventListener('keyup', down)
