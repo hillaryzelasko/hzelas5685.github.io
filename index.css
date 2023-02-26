@@ -205,9 +205,9 @@ button {
   /* WEDDING PRICES PAGE */
 
 
-  .layout {
+  .packages {
     display: grid;
-    width: 100%;
+    width: 80%;
     height: 80%;
     position: relative;
     grid-template-columns: repeat(3, 1fr);
@@ -240,17 +240,12 @@ button {
 
   }
   
-  .weddingIntro {
+
+  .package_i {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     grid-area: 2 / 1 / 3 / 2;
-
+  
   }
-
-  #reserve {
-    text-transform: uppercase;
-    color:rgba(0, 0, 0, 0.2)
-  }
-
 
   .package_ii {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
@@ -298,9 +293,9 @@ button {
 
 
 /* WEDDING PAGE */
-.packages {
+.layout {
   display: grid;
-  width: 80%;
+  width: 100%;
   height: 80%;
   position: relative;
   grid-template-columns: repeat(3, 1fr);
@@ -332,12 +327,17 @@ button {
 
 
 }
-
-.package_i {
+.weddingIntro {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   grid-area: 2 / 1 / 3 / 2;
 
 }
+
+#reserve {
+  text-transform: uppercase;
+  color:#454545
+}
+
 
 .package_ii {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
