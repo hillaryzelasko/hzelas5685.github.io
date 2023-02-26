@@ -24,20 +24,25 @@
     </nav>
 
     <main>
-        <div class="packages">
+        <div class="layout" id="layout">
             
 
-            <div class="title"><h1>Prices + Packages</h1></div>
+            <div class="title"><h1>Weddings</h1></div>
             
-            <div class="package_i" id="package_i">
-                <img src="https://sat02pap005files.storage.live.com/y4mHak3Cz8TyrzJ3FEPxq7kRI80IUPRxY1LZQGsucsfPClyL6_YxCcvWnEApDVRWglBHQWd5y6qFKkF17Qk_ZKPJ-w8x8XbLly9fTtmzOjxNSkZ7UQQpA6uiR1-5JD0uj1Yz9f8qnKjyncIQ-8udFD8e5JXeu9v2QWwbaYV3E9x5v5nZ_Wu97XMCuhYJwuAXcl2?width=5760&height=3840&cropmode=none" class="pricepic">
-                <h3>Package I</h3>
-                <p class="cost">starting at $1250</p>
+            <div class="weddingIntro" id="weddingIntro">
+                <img src="" class="">
                 <p class="description">
-                    +5 Hours
-                <br>+1 Filmmaker 
-                <br>+2-4 Minute Highlight Film
-                <br>+Ceremony Documentary Edit</p>
+                    From big vibrant parties to cozy, candlelit wedding ceremonies. Love is beautiful, and it can be captured in so many ways, through a hug, a kiss, a stare, or a wink. All I ask my clients is to trust me with their memories and allow them to enjoy the day fully.
+                    <br>
+                    Your wedding day happens so fast. Between the busy schedule of the day and the rush of emotions, it’s all too easy to get swept up and miss those details you’ve been planning for so long.
+                    <br>
+                    A wedding film with ZELASKO PRODUCTIONS preserves the day, allowing you to watch the emotional moments again and again. Our cameras will catch so many of the tiny, behind-the-scenes moments that you may not have the opportunity to see; from your family’s faces as you exchange your vows, to the very best dance moves!!
+                    <br>
+                    In addition to filming the beautiful visual details of your day, we take care to record audio as well. These words: your vows, toasts, and speeches from family and friends, alongside the natural audio of the day, will tell your wedding story.
+                    <br>
+                    It is our goal that every time you watch your wedding video, you will feel those same emotions you felt on your wedding day.</p>
+                    <br>
+                    <button id="reserve" value="Reserve your date today!"></button>
 
             </div>
 

@@ -35,3 +35,19 @@ package_ii.addEventListener('mouseout', reset)
 
 package_iii.addEventListener('mouseover', changeSizePackage_III)
 package_iii.addEventListener('mouseout', reset)
+
+
+// BUTTON FUNCTION
+
+let reserveButton = document.getElementById('reserve');
+
+function changeColor() {
+    reserveButton.style.color = '#707070'
+}
+
+function buttonReset() {
+    reserveButton.style.color = '';
+}
+
+reserveButton.addEventListener('mouseover', changeSizePackage_I)
+reserveButton.addEventListener('mouseout', buttonReset)
