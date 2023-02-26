@@ -335,7 +335,8 @@ button {
 
 #reserve {
   text-transform: uppercase;
-  color:#454545
+  color:#454545;
+  background-color:rgba(0, 0, 0, 0.1);
 }
 
 
