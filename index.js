@@ -42,7 +42,7 @@ package_iii.addEventListener('mouseout', reset)
 let reserveButton = document.getElementById('reserve');
 
 function changeColor() {
-    reserveButton.style.color = '#707070'
+    reserveButton.style.background = '#707070'
 }
 
 function buttonReset() {
