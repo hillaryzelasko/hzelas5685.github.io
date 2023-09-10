@@ -102,6 +102,20 @@ main {
 
 
 
+/* MAIN PAGE DIV CODE */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .divHeader { grid-area: 2 / 2 / 3 / 6; }
+  .divAboutMe { grid-area: 2 / 2 / 6 / 6; }
+  .divProjects { grid-area: 2 / 2 / 6 / 6; }
+  .divMoreInfo { grid-area: 2 / 2 / 6 / 6; }
+  .divContact { grid-area: 2 / 2 / 6 / 6; }
 
 
 /* FOOTER CODE */
@@ -138,6 +152,9 @@ footer ul li {
     padding: 0px 20px;
 
 }
+
+
+
 
 
 
