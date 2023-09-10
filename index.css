@@ -111,7 +111,6 @@ main {
   grid-row-gap: 0px;
   }
   
-  .divHeader { grid-area: 2 / 2 / 3 / 6; }
   .divAboutMe { grid-area: 2 / 2 / 6 / 6; }
   .divProjects { grid-area: 2 / 2 / 6 / 6; }
   .divMoreInfo { grid-area: 2 / 2 / 6 / 6; }
