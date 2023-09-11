@@ -110,7 +110,10 @@ main {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
-  
+
+  .divHeader { 
+      grid-area: 1 / 1 / 3 / 6;
+      text-align: center; }
   .divAboutMe { grid-area: 2 / 2 / 6 / 6; }
   .divProjects { grid-area: 2 / 2 / 6 / 6; }
   .divMoreInfo { grid-area: 2 / 2 / 6 / 6; }
