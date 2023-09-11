@@ -95,6 +95,9 @@ main {
 .nav-box a:hover::before {
     content: "+";
 }
+.nav-box a:hover::after {
+  content: "+";
+}
 
 .push {
     margin-left: auto;
