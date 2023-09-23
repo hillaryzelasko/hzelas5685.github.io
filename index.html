@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Hillary Zelasko</title>
-    <link href="index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" type="text/css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;0,200;0,300;1,1;1,100;1,200;1,300&display=swap" rel="stylesheet">
@@ -22,12 +26,13 @@
           
     </nav>
 
-    <main>
-        <div class="parent">
+    <main id="main" role="main">
+<!-- EDITING OUT TO TEST OTHER CODE 
+            <div class="parent">
             
             <div class="divHeader" id="divHeader">
                 <h1>Hillary Zelasko</h1>
-                <h2> + software engineer + </h2>
+                <h2>+ software engineer +</h2>
             </div>
         <div class="divBody">
             <div class="divAboutMe">
@@ -47,7 +52,116 @@
             </div>
         </div>
     </div>
+-->
 
+<!-- info -->
+<section id="info-section" class="information" >
+    <div  class="page-header">
+      <h1>Information <small>Learn everything about me</small></h1>
+    </div>
+    <ul id="information-tabs" class="nav nav-pills ">
+      <li><a href="#summary" data-toggle="tab">Summary</a></li>
+      <li><a href="#skills" data-toggle="tab">Skills</a></li>
+      <li><a href="#experience" data-toggle="tab">Experience</a></li>
+      <li><a href="#education" data-toggle="tab">Education</a></li>
+      <li><a href="#awards" data-toggle="tab">Awards</a></li>
+    </ul>
+    <!-- tab content -->
+    <div class="tab-content">
+      <!-- Summary -->
+      <div class="summary-section tab-pane active" id="summary">
+        <p ><strong>Resume is a free template</strong> It's responsive, HTML 5 valid all of this in one single page. It's fully documented and you can use it with no attribution or credit back required for commercial and personal projects, redistribution is not allowed if you want to use it in a different way please contact me.</p>
+        <p>Thanks to thebeaststudio.com for sharing their work as placeholder images.</p>
+        <p><strong>Some dummy text</strong> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus </p>
+      </div>
+      <!-- ENDS Summary -->
+      <!-- Skills -->
+      <div class="tab-pane listing" id="skills">
+        <div class="entry">
+          <div class="clearfix">
+            <div class="rating p"> <i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i> </div>
+            <h3 class="heading pull-leasft">Web Design</h3>
+          </div>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+        </div>
+        <div class="entry">
+          <div class="clearfix">
+            <div class="rating p"> <i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star-empty"></i> </div>
+            <h3 class="heading pull-leasft">Web Development</h3>
+          </div>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+        </div>
+        <div class="entry">
+          <div class="clearfix">
+            <div class="rating p"> <i class="icon-star"></i> <i class="icon-star-empty"></i> <i class="icon-star-empty"></i> </div>
+            <h3 class="heading pull-leasft">Illustration</h3>
+          </div>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+        </div>
+      </div>
+      <!-- ENDS Skills -->
+      <!-- Experience -->
+      <div class="tab-pane" id="experience">
+        <table class="table experience-table">
+          <tbody>
+            <tr>
+              <td><h3 class="position" >Digital Media Director</h3>
+                <span class="date"> Sep 2011 - Present</span><small>That Company</small></td>
+              <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p></td>
+            </tr>
+            <tr>
+              <td><h3 class="position">Chief Executive Officer</h3>
+                <span class="date"> Oct 2000 - Sep 2011</span><small>Acme Toys</small></td>
+              <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p></td>
+            </tr>
+            <tr>
+              <td><h3 class="position">Media Engineer</h3>
+                <span class="date"> Jan 1994 - Oct 2000</span><small>That Company</small></td>
+              <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- ENDS Experience -->
+      <!-- Education -->
+      <div class="tab-pane listing" id="education">
+        <div class="entry">
+          <h3 class="heading">Sullivan University</h3>
+          <span class="date">2011 – 2011</span>
+          <p>Major or Area of study: Communication Studies, Business Management, Human Resources, Business Law, Business Studies, Digital Production, Print Production, Computer Science</p>
+        </div>
+        <div class="entry">
+          <h3 class="heading">Helwan University</h3>
+          <span class="date">2004 – 2007</span>
+          <p>Completed executive training in Sales Motivation, CRM, Management and Sales</p>
+        </div>
+        <div class="entry">
+          <h3 class="heading">Cambridge International School</h3>
+          <span class="date">1999- 2000</span>
+          <p>IGCSE, Commerce</p>
+        </div>
+      </div>
+      <!-- ENDS Education -->
+      <!-- Awards -->
+      <div class="tab-pane" id="awards">
+        <ul class="awards-list">
+          <li>
+            <h3  class="heading">“Elite Author” at ThemeForest </h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+            <a class="btn" href="#">Link</a></li>
+          <li>
+            <h3  class="heading">“Elite Author” at ThemeForest </h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+            <a class="btn" href="#">Link</a></li>
+          <li>
+            <h3  class="heading">“Elite Author” at ThemeForest </h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+            <a class="btn" href="#">Link</a></li>
+        </ul>
+      </div>
+      <!-- ENDS Awards -->
+    </div>
+    <!-- ENDS tab content -->
     </main>
 
     <footer>
