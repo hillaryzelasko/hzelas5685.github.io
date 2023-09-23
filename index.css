@@ -81,19 +81,19 @@ main {
 
 
 .nav-box a {
-    color: #454545;
-    text-decoration: none;
+  color: #454545;
+  text-decoration: none;
 
 }
 
 .nav-box a:hover {
-    letter-spacing: 3px;
-    color: #454545;
-    content: "+";
+  letter-spacing: 3px;
+  color: #454545;
+  content: "+";
 }
 
 .nav-box a:hover::before {
-    content: "+";
+  content: "+";
 }
 .nav-box a:hover::after {
   content: "+";
@@ -115,8 +115,10 @@ main {
   }
 
   .divHeader { 
-      grid-area: 1 / 1 / 3 / 7;
-      text-align: center; }
+    grid-area: 1 / 1 / 3 / 7;
+    text-align: center; 
+  }
+  
   .divAboutMe { 
     grid-area: 3 / 2 / 6 / 6; 
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
@@ -135,6 +137,8 @@ main {
     grid-area: 3 / 2 / 6 / 6; 
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   }
+
+
 
 
 /* FOOTER CODE */
