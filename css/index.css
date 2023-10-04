@@ -25,7 +25,7 @@ h2 {
   font-family: "Sofia Sans Extra Condensed", Georgia;
   text-transform: lowercase;
   letter-spacing: 0em;
-  line-height: 0;
+  line-height: -5;
   font-weight: lighter;
   
 }
