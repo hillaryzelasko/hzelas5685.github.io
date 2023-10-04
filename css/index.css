@@ -129,7 +129,7 @@ main {
   .divBody {
     grid-area: 3 / 1 / 7 / 7;
     border: 0px solid #000;
-    background-color: darkblue;
+    background-color: #395a7f;
   }
   
   .divIndexPhoto { 
