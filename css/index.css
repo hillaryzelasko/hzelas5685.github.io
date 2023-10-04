@@ -61,13 +61,13 @@ main {
 
 .nav-bar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     color: #454545;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
 
 .nav-box {
@@ -75,7 +75,7 @@ main {
   width: auto;
   color: #454545;
   padding: 20px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
 
 }
@@ -90,7 +90,7 @@ main {
 .nav-box a:hover {
   letter-spacing: 2px;
   color: #454545;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 16px;
 
 }
