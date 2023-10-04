@@ -115,6 +115,7 @@ main {
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  background-color: #395a7f;
   }
 
   /*
@@ -127,17 +128,14 @@ main {
   }
   */
   
-  .divBody {
-    grid-area: 2 / 1 / 6 / 7;
-    border: 0px solid #000;
-    background-color: #395a7f;
-  }
+
 
       
       .div1 { grid-area: 1 / 2 / 2 / 6; }
 
       .div2 {
         grid-area: 2 / 2 / 6 / 4; 
+        border: 1px black solid;
             }
       
       .div3 { 
