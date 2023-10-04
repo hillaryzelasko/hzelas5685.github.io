@@ -129,23 +129,25 @@ main {
   
   .divBody {
     display: flex;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-between;
     border: 0px solid #000;
     background-color: #395a7f;
   }
 
-  /*
-  .divIndexPhoto { 
-    
-    grid-row: 2 / 6;
-    grid-column: 2 / 4;
-    border: 1px black solid;
-    }
-*/
-  .divShortBio { 
-    border: 1px black solid;
-    background-color: white;
-    }
+      
+      .div1 { grid-area: 1 / 2 / 2 / 6; }
+
+      .div2 { grid-area: 2 / 2 / 6 / 4; }
+      
+      .div3 { 
+        grid-area: 2 / 4 / 6 / 6; 
+        border: 1px black solid;
+        background-color: white;
+            }
+
+      
+      .div4 { grid-area: 6 / 2 / 7 / 6; }
 
 
 
