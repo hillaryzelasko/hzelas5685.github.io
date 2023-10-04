@@ -61,7 +61,7 @@ main {
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     color: #454545;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -71,13 +71,11 @@ main {
   }
 
 .nav-box {
-  display: inline-block;
   height: 20px;
   width: auto;
-  text-decoration: none;
-  list-style: none;
   color: #454545;
   padding: 20px;
+  text-transform: capitalize;
 
 
 }
