@@ -1,7 +1,8 @@
 @media (max-width: 480px) {
-  .div2 img 
+  img 
   {
-    width: 250px;
+    width: 150;
+    border-radius: 8px;
   }
   }
   @media (max-width: 768px) {
