@@ -3,6 +3,7 @@
 body{
   background-color: rgb(255, 255, 255);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
 }
 
 h1 {
@@ -53,6 +54,7 @@ text-decoration: bold;
 
 main {
 text-align: center;
+
 
 }
 
@@ -122,6 +124,7 @@ background-color: white;
     .div2 {
       grid-area: 1 / 2 / 7 / 4; 
       text-align: right;
+      background-color: white;
           }
     
     .div3 { 
@@ -137,6 +140,7 @@ background-color: white;
       font-size: 14px;
       color: #454545;
       text-align: justify;
+      
     }
 
     
@@ -183,3 +187,151 @@ footer ul li {
   padding: 0px 20px;
 
 }
+
+
+
+
+
+
+
+
+
+/* CUSTOMIZE RESUME PAGE CSS */
+.parentResume {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+background-color: rgb(255, 255, 255);
+}
+
+    
+
+    .div1Resume {
+      /* TITLE AREA */
+
+      grid-area: 1 / 2 / 2 / 5;
+      text-align: center;
+      background-color: rgb(245, 245, 245);
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      
+      
+    }
+    .div2Resume {
+      /* SKILLS AREA */
+
+      grid-area: 2 / 2 / 7 / 3; 
+      text-align: left;
+      background-color: rgb(245, 245, 245);
+      border-bottom-left-radius: 25px;
+          }
+    
+    .div3Resume { 
+      /* EMPLOYMENT AREA */
+
+      grid-area: 2 / 3 / 7 / 5; 
+      background-color: rgb(245, 245, 245);
+      text-align: left;
+      padding-left: 20px;
+      border-bottom-right-radius: 25px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #656565;
+          }
+
+
+    .parentResume p {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #656565;
+      text-align: left;
+    }
+
+    .div1Resume p {
+      text-align: center;
+    }
+
+    .div2Resume p {
+      margin-left: 15px;
+    }
+
+    .div3Resume p 
+    {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #656565;
+      text-align: justify;
+      
+    }
+    
+    
+    .parentResume h1 {
+      color: rgba(0, 0, 0, 50%);
+      text-align: center;
+      padding: 0%;
+      font-size: 50px;
+      font-family: "Sofia Sans Extra Condensed", Georgia;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      margin: 0;
+      
+    }
+
+    .parentResume h2 {
+      color: rgba(0, 0, 0, 50%);
+      text-align: center;
+      padding: 0%;
+      font-size: 40px;
+      font-family: "Sofia Sans Extra Condensed", Georgia;
+      text-transform: lowercase;
+      letter-spacing: 0em;
+      line-height: 0;
+      font-weight: lighter;
+      margin: 0;
+      
+    }
+    
+    .parentResume h3 {
+      color: rgba(0, 0, 0, 50%);
+      text-align: center;
+      padding: 0%;
+      font-size: 30px;
+      font-family: "Sofia Sans Extra Condensed", Georgia;
+      text-transform: lowercase;
+      letter-spacing: 0em;
+      line-height: 0;
+      font-weight: 350;
+      margin: 0;
+      
+    }
+
+    .parentResume h4 {
+      color: rgba(0, 0, 0, 50%);
+      text-align: left;
+      padding: 0%;
+      font-size: 30px;
+      font-family: "Sofia Sans Extra Condensed", Georgia;
+      text-transform: capitalize;
+      letter-spacing: 0em;
+      line-height: 0;
+      font-weight: 500;
+      margin-bottom: 16px;
+      margin-top: 12px;
+
+      
+    }
+
+    .parentResume ul
+    {
+      margin: 0px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #656565;
+    }
+
+    a
+    {
+      color: black;
+    }
