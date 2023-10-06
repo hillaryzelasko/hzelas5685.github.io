@@ -60,7 +60,7 @@ text-align: center;
 
 img 
 {
-  width: 300px;
+  min-width: 250px;
   border-radius: 8px;
 }
 
