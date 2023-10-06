@@ -4,7 +4,9 @@
     width: 300px;
     border-radius: 8px;
     max-width: 400px;
-    
+    margin: auto;
+    display:block;
+
   }
 /* INDEX PAGE */
   .div2 {
