@@ -91,6 +91,11 @@
 
    }
 
+  h3 {
+    font-size: 20px;
+  
+   }
+
   }
   @media (min-width: 768px) and (max-width: 980px) {
     img 
@@ -135,6 +140,12 @@
     
   }
   @media (min-width: 1200px) {
-    
+    img 
+    {
+      width: 500px;
+      border-radius: 8px;
+      margin: auto;
+      display:block;
+    }
   }
   
