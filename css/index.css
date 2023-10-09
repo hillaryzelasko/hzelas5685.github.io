@@ -61,6 +61,7 @@ text-align: center;
 img 
 {
   min-width: 250px;
+  max-width: 500px;
   border-radius: 8px;
   margin: auto;
   display:block;
