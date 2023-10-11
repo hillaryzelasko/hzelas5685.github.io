@@ -67,6 +67,12 @@ img
   display:block;
 }
 
+iframe {
+  border: 1px solid rgba(0, 0, 0, 0.266);
+  width: 100%; 
+  
+}
+
 
 /* NAVIGATION BAR */
 
@@ -342,4 +348,30 @@ background-color: rgb(255, 255, 255);
     a
     {
       color: black;
+    }
+
+
+
+    /* PORTFOLIO CODE */
+
+    .div2Portfolio {
+      grid-area: 1 / 2 / 7 / 5; 
+      text-align: right;
+      background-color: white;
+          }
+    
+    .div3Portfolio { 
+      grid-area: 1 / 5 / 7 / 6; 
+      background-color: white;
+      text-align: left;
+      padding: 20px;
+          }
+
+    .div3Portfolio p 
+    {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #454545;
+      text-align: justify;
+      
     }
